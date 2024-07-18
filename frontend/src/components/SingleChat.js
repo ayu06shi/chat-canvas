@@ -16,7 +16,7 @@ import io from "socket.io-client";
 import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModal";
 import { ChatState } from "../context/ChatProvider";
 
-const ENDPOINT = "http://localhost:5000"; //change it to the deployed url after deployment
+const ENDPOINT = "https://chat-canvas.onrender.com/"; //change it to the deployed url after deployment
 
 var socket, selectedChatCompare;
 
